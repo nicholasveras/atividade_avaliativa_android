@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Usuário"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Senha"
+        android:layout_below="@id/editTextUsuario"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonEntrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Entrar"
+        android:layout_below="@id/editTextSenha"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewRecuperarSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recuperar Senha"
+        android:layout_below="@id/buttonEntrar"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fazer Cadastro"
+        android:layout_below="@id/textViewRecuperarSenha"
+        android:layout_marginBottom="16dp"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutTexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:padding="8dp"
+        android:layout_below="@id/textViewCadastro"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Texto de 5 linhas aqui..."
+            android:maxLines="5"/>
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkBoxAceitarTermos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aceito os termos"
+        android:layout_below="@id/linearLayoutTexto"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

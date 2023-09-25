@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Avaliativa Layoults</string>
+    <string name="login_header">Login</string>
+    <string name="password">Senha</string>
+    <string name="dont_has_cadaster_ask">Ainda não tem uma conta ?</string>
+    <string name="cadaster_now">Cadastre-se agora.</string>
+    <string name="forget_password">Esqueci minha senha</string>
+    <string name="terms">Um \"termo de uso genérico\" geralmente se refere a um documento que estabelece os termos e condições de uso de um serviço, produto ou plataforma de forma ampla e abrangente, sem considerar especificidades ou detalhes exclusivos desse serviço, produto ou plataforma em particular. Esse tipo de documento é muitas vezes usado como um modelo básico que pode ser adaptado para diferentes finalidades, e costuma incluir informações gerais sobre direitos e responsabilidades das partes envolvidas.</string>
+    <string name="read_and_accept_terms">Li e aceito os termos</string>
+    <string name="e_mail">E-mail</string>
+    <string name="name_user">Nome usuário</string>
+    <string name="cattegory">Categoria</string>
+    <string name="product_name">Nome jogador</string>
+    <string name="product_description">A descrição é a enumeração das características próprias,</string>
+</resources>
